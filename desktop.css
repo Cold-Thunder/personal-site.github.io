@@ -1,0 +1,143 @@
+*{
+    box-sizing:border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+body{
+    
+}
+/*Navbar Start Here*/
+header{
+    display:flex;
+    /*justify-content:space-between;*/
+    align-items:center;
+    color:white;
+
+    position:sticky;
+    top:0;
+    z-index:10;
+    min-height: 5vh;
+}
+.nav-bar{
+    background-image:linear-gradient(to right, #ABEC37, blueviolet);
+    height:150px;
+    width:100%;
+}
+.nav-logo{
+    text-align:left;
+    cursor:pointer;
+}
+.nav-heading{
+    text-shadow:2px 2px 5px black;
+    padding-top:20px;
+}
+.logo-img{
+    box-shadow:2px 2px 5px black;
+}
+.nav-manu{
+    flex-direction:row;
+    justify-content:flex-end;
+}
+.nav-manu a{
+    font-size:19px;
+    margin-top:50px;
+    text-shadow:2px 2px 5px black;
+    background-color:transparent;
+}
+.nav-manu a:hover{
+    text-shadow:2px 2px 5px black;
+    background-color:skyblue;
+    box-shadow:2px 2px 5px inset black;
+}
+/*Navbar end Here*/
+/*Profile Start Here*/
+.profile .top-wether-icon{
+    height:80px;
+    width:120px;
+    right:100px;
+    top:20px;
+    position:absolute;
+    transition: width  0.5s;
+}
+.profile .bottom-wether-icon{
+    height:80px;
+    width:120px; 
+    left:140px;
+    position:absolute;
+    transition:transform 2s;
+}
+.profile .top-wether-icon:hover{
+    transform:rotate(360deg);
+    width:140px;
+}
+.profile .bottom-wether-icon:hover{
+    transform:rotate(360deg);
+}
+.profile-dsc h1{
+    font-family:cursive;
+}
+.profile p{
+    text-align:center;
+    font-size:18px;
+    margin:0 auto;
+    width:50%;
+}
+.profile::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+/*Profile end Here*/
+/*About Me Starts Here*/
+.aboutme{
+    background-color:blueviolet;
+}
+.aboutme-img{
+    margin-top:10px;
+}
+.aboutme-img img{
+    border:5px solid white;
+    border-radius:50%;
+    height:260px;
+    width:240px;
+    
+}
+.aboutme-img img:hover{
+    box-shadow:2px 8px 10px black;
+}
+.aboutme-dsc p{
+    text-align:left;
+}
+/*About Me ends Here*/
+/*professional experince starts here*/
+.preofessional-experience{
+    background-color:;
+}
+/*professional experince ends here*/
+/*contact starts*/
+.contacts button{
+    height:30px;
+    width:100px;
+}
+/*contacts ends*/
+/*footer*/
+.footer-manu{
+    margin-top:2px;
+}
+.footer-manu a{
+    display:inline;
+    padding:10px;
+}
+.footer-desc{
+    margin-top:8px;
+}   
